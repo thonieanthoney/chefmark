@@ -41,25 +41,10 @@ nav a {
     color:white;
     text-decoration: none;
 }
-.youtubehyper {
-    width: 25px;
-    height: 25px;
-    padding: 5px 5px;
-}
-.instagram {
-    width: 25px;
-    height: 25px;
-    padding: 5px 5px;
-}
-.facebook {
-    width: 25px;
-    height: 25px;
-    padding: 5px 5px;
-}
-.twitter {
-    width: 25px;
-    height: 25px;
-    padding: 5px 5px;
+.social_icons{
+    color: white;
+    font-size: 11px;
+    padding: 2px 2px 2px 2px;
 }
 .socials{
     padding-top: 5px;
