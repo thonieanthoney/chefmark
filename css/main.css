@@ -78,6 +78,7 @@ nav ul li a:hover{
     border-bottom:1.25px solid tomato;
 }
 .footer{
+    margin-top: 45%;
     width: 100%;
     height: auto;
     background-color: white;
