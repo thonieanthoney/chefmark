@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+
+.nav-links {
+    font-family: "Poiret One";
+    color: white;
+    font-size: 16px;
+    list-style-type: none;
+    display: flex;
+}
+nav {
+    padding: 16px 24px 16px 24px ;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-bottom: 45px;
+}
+.homelogo {
+    width: auto;
+    height: 55px;
+    object-fit: cover;
+}
+.nav-item {
+    padding: 10px 15px;
+}
+nav ul li a:hover {
+    color: tomato;
+    transition: 0.9s;
+    border-bottom: 1.25px solid tomato;
+}
+nav a {
+    color:white;
+    text-decoration: none;
+}
+.social_icons{
+    color: white;
+    font-size: 11px;
+    padding: 2px 2px 2px 2px;
+}
+.socials{
+    padding-top: 5px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.footer a{
+    font-family: "Poriet One";
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+}
+.footer .menu{
+    margin-left: 100px;
+    display: block;
+}
+.footer .social-media{
+    margin-left: 250px;
+}
+.social-media a{
+    display: block;
+}
+.social-media h3{
+    margin-bottom: 10px;
+}
+.fb {
+    font-style: bold;
+    display: flex;
+}
+
+.ig {
+    font-style: bold;
+    display: flex;
+}
+.footer .terms-policy{
+    margin-left: 200px;
+}
+.footer h5{
+    color: #444;
+    font-style: bold;
+    text-align: center;
+}
+.menu1{
+    display: inline-block;
+}
+.menu2{
+    padding-left: 10px ;
+    display: inline-block;
+}
+.rowuno{
+    display: flex;
+}
+.rowdos{
+    display: block;
+}
+.terms-policy h3{
+    margin-bottom: 10px;
+}
+.menu h3{
+    margin-bottom: 10px;
+}
+.menu a{
+    margin-bottom: 5px;
+}
+.social-media a{
+    margin-bottom: 5px
+}
+.ig-ico{
+    padding-left: 5px;
+    
+}
+.fb-ico{
+    padding-left: 5px;
+}
