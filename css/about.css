@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
 
-body, text {
-    background-color: #333;
+
+body{
+    background-color: #222;
 }
-.page-container {
-    display: block;
-    width: 960px;
-    margin: auto auto  auto auto;
-    padding: 24px 24px 16px 24px;
+text{
+    color: white;
+}
+.the_chef{
+    width: 50%;
+    height: auto;
+    margin: 45px auto 0px 25%;
 }
 .nav-links {
     font-family: "Poiret One";
@@ -23,6 +27,7 @@ nav {
     display: flex;
     justify-content: space-between;
     position: absolute;
+    margin-bottom: 45px;
 }
 .homelogo {
     width: auto;
@@ -49,95 +54,69 @@ nav a {
 .socials{
     padding-top: 5px;
 }
-
-.partition{
-    text-align: center;
-    background-color: white;
-    width: 100%;
-    height:auto;
-    padding-bottom: 20px;
+.page-container {
+    display: block;
+    width: 960px;
+    margin: auto auto  auto auto;
+    padding: 24px 24px 16px 24px;
 }
 .partition h4{
-    margin: auto;
-    font-family: "Poiret One";
+    margin: 0px 25px 35px 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 12px;
+    color: white;
 }
-.quote{
+.partition{
+    margin-top: 0px;
+    background-color: #333;
+    display: flex;
+
+}
+#fa_pep{
+    color: white;
+    margin-top: 45px;
+}
+.about1{
+    width: 50%;
     padding: 35px 0px 0px 0px;
+    text-align: center;
 }
-.quote1{
+.about2{
+    width: 50%;
     padding: 35px 0px 0px 0px;
-}
-.quotecenter{
-    padding: auto;
-    align-content: center;
+    text-align: center;
 }
 .header{
-    margin-top: 15px;
+    margin-top: 0px;
     font-family: "Courgette";
+    font-size: 28px;
     color: white;
-    padding-top: 60px;
-    margin:auto;
-    text-align: center;    
+    text-align: center;
+    margin-bottom: 0px;    
 }
-
-#slide {
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    width: 68%;
-    height: 450px;
-    background-position: auto ;
-    background-size: cover;
-    background-repeat: no repeat;
-    backface-visibility: hidden;
-    animation: slidec 35s linear infinite 0s;
-    animation-duration: 30s;
-    animation-timing-function: ease-in-out;
-    background-image: url('../img/dishes/dish_1.jpeg');
-    object-fit: cover;
+.header_bg{
+    background-color: #444;
 }
-@keyframes slidec {
-    10% {
-        background-image: url('../img/dishes/dish_2.jpeg');
-        object-fit: cover;
-    }
-    20% {
-        background-image: url('../img/dishes/dish_3.jpeg');
-        object-fit: cover;
-    }
-    30% {
-        background-image: url('../img/dishes/dish_4.jpeg');
-        object-fit: cover;
-    }
-    40% {
-        background-image: url('../img/dishes/dish_6.jpeg');
-        object-fit: cover;
-    }
-    50% {
-        background-image: url('../img/dishes/dish_7.jpeg');
-        object-fit: cover;
-    }
-    60% {
-        background-image: url('../img/dishes/dish_8.jpeg');
-        object-fit: cover;
-    }
-    70% {
-        background-image: url('../img/dishes/dish_14.jpeg');
-        object-fit: contain;
-    }
-    80% {
-        background-image: url('../img/dishes/dish_24.jpeg');
-        object-fit: cover;
-    }
-    88% {
-        background-image: url('../img/dishes/dish_11.jpeg');
-        object-fit: cover;
-    }
-    95% {
-        background-image: url('../img/dishes/dish_16.jpeg');
-        object-fit: cover;
-    }
+.chef_bg{
+    margin-top: 45px;
+    background-color: #111;
+}
+.work{
+    width: 100%;
+    display: block;
+    background-color:#444;
+}
+.work_heading{
+    background-color: #111;
+}
+.row1{
+    display: flex;
+    width: 100%;
+}
+.work_logo{
+    width: 28%;
+    height: auto;
+    margin: 0px 5px 5px 5px;
 }
 .images{
     width: 100%;
@@ -214,7 +193,7 @@ nav a {
     margin:0;
   }
   .textOverImage div{
-      font-family: "Poiret One";
+      font-family: "Monsterrat" sans-serif;
   }
   .textOverImage2 > input{
     display:none;
@@ -250,7 +229,7 @@ nav a {
   .textOverImage2 div{
       font-family: "Poiret One";
   }
-  .footer{
+.footer{
     width: 100%;
     height: auto;
     background-color: white;
