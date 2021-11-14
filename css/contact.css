@@ -91,7 +91,7 @@ nav ul li a:hover{
     transition: .9s;
     border-bottom:1.25px solid tomato;
 }
-a{
+nav a{
     color: white;
     text-decoration: none;
 }

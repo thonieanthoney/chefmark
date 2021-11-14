@@ -1,6 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+body{
+    background-color: #333;
+}
+.nav-links{
+    font-family: "Poiret One";
+    font-size: 14px;
+    list-style-type:none;
+    display: flex;
+}
+nav{
+    padding: 16px 24px 16px 24px ;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+.nav-item{
+    padding: 10px 15px;
+}
+nav ul li a:hover{
+    color: tomato;
+    transition: .9s;
+    border-bottom:1.25px solid tomato;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+.social_icons{
+    color: white;
+    font-size: 12px;
+    padding: 2px 2px 2px 2px;
+}
+.homelogo {
+    width: auto;
+    height: 55px;
+    object-fit: cover;
+}
 .page-container{
+    padding-top: 50px;
     width: 960;
     height: auto;
     margin-left: 350px;
@@ -28,7 +67,7 @@ h1{
     width: 600px;
     background-color: #CBC6BD;
     border-radius: 15px;
-    box-shadow: 0px 5px 5px 8px #444;
+    box-shadow: 0px 5px 5px 8px #222;
 }
 .card-text{
     display: block;
@@ -39,9 +78,13 @@ img{
 h4{
     padding-left: 25px;
 }
+.footer{
+    background-color: white;
+    margin-top: 150px ;
+}
 .footer a{
     font-family: "Poriet One";
-    color: black;
+    color:black;
     text-decoration: none;
     list-style-type: none;
     display: flex;
@@ -59,6 +102,9 @@ h4{
 .social-media h3{
     margin-bottom: 10px;
 }
+.footer h3{
+    color: black;
+}
 .fb {
     font-style: bold;
     display: flex;
@@ -72,7 +118,7 @@ h4{
     margin-left: 200px;
 }
 .footer h5{
-    color: #444;
+    color: black;
     font-style: bold;
     text-align: center;
 }
