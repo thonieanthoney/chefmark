@@ -153,12 +153,22 @@ nav a {
     display: flex;
     width: 100%;
 }
+.row3{
+    display: flex;
+    width: 100%;
+}
 .row1img{
     width: 25%;
     height: 240px;
     object-fit: cover;
 }
 .row2img{
+    padding-top: 15px;
+    width: 25%;
+    height: 240px;
+    object-fit: cover;
+}
+.row3img{
     padding-top: 15px;
     width: 25%;
     height: 240px;
@@ -184,14 +194,27 @@ nav a {
     cursor:pointer;
     overflow:hidden;
   }
+  .textOverImage3{
+    margin-top: 10px;
+    width:25%;
+    height:240px;
+    display:flex;
+    background-size:cover;
+    position:static;
+    cursor:pointer;
+    overflow:hidden;
+  }
   
   .textOverImage > input{
     display:none;
   }
   
-  .textOverImage > div,.textOverImage > h2{
-    position:absolute;
+  .textOverImage > div{
+    position: fixed;
     background-color:rgba(255,255,255,0.8);
+    background-size: auto;
+    border-radius: 5px;
+    text-align: center;
     bottom:20px;
     left:4px;
     right:4px;
@@ -200,57 +223,90 @@ nav a {
     transition:.3s ease;
   }
   
-  .textOverImage:hover,.textOverImage > input:checked + h2 + div{
+  .textOverImage:hover,.textOverImage > input:checked + div{
     bottom:4px;
     opacity:1;
   }
   .textOverImage:hover{
     transform: scale(1.5);
+    border-radius: 10px;
   }
-  .textOverImage > input:checked + h2{
+  .textOverImage > input:checked{
     bottom:-20px;
     opacity:0;
   }
   
-  .textOverImage > h2{
-    margin:0;
-  }
   .textOverImage div{
     font-family: 'Petemoss', cursive;
+    font-size: 18px;
   }
   .textOverImage2 > input{
     display:none;
   }
   
-  .textOverImage2 > div,.textOverImage2 > h2{
-    position:absolute;
+  .textOverImage2 > div{
+    position: fixed;
     background-color:rgba(255,255,255,0.8);
+    background-size: auto;
+    border-radius: 5px;
+    text-align: center;
     bottom:20px;
     left:4px;
     right:4px;
     padding:8px;
-    overflow:hidden;
     opacity:0;
-    transition:.3s;
+    transition:.3s ease;
   }
   
-  .textOverImage2:hover,.textOverImage2 > input:checked + h2 + div{
+  .textOverImage2:hover,.textOverImage2 > input:checked + div{
     bottom:4px;
     opacity:1;
   }
   .textOverImage2:hover{
     transform: scale(1.5);
+    border-radius: 10px;
   }
-  .textOverImage2 > input:checked + h2{
+  .textOverImage2 > input:checked{
     bottom:-20px;
     opacity:0;
   }
-  
-  .textOverImage2 > h2{
-    margin:0;
-  }
   .textOverImage2 div{
     font-family: 'Petemoss', cursive;
+    font-size: 18px;
+  }
+  .textOverImage3 > input{
+    display:none;
+  }
+  
+  .textOverImage3 > div{
+    position: fixed;
+    background-color:rgba(255,255,255,0.8);
+    background-size: auto;
+    border-radius: 5px;
+    text-align: center;
+    bottom:20px;
+    left:4px;
+    right:4px;
+    padding:8px;
+    opacity:0;
+    transition:.3s ease;
+  }
+  
+  .textOverImage3:hover,.textOverImage3 > input:checked + div{
+    bottom:4px;
+    opacity:1;
+  }
+  .textOverImage3:hover{
+    transform: scale(1.5);
+    border-radius: 10px;
+  }
+  .textOverImage3 > input:checked{
+    bottom:-20px;
+    opacity:0;
+  }
+  .textOverImage3 div{
+    font-family: 'Petemoss', cursive;
+    font-size: 18px;
   }
   .footer{
     width: 100%;
