@@ -38,6 +38,9 @@ nav a{
     height: 55px;
     object-fit: cover;
 }
+h1,h3{
+    color: white;
+}
 .page-container{
     padding-top: 50px;
     width: 960;
