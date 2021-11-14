@@ -1,6 +1,6 @@
 Font Selection
     font was selected based on prescribed colors by site requester as well as
-    to create an under tone and letting the color ofg the dishes pop.
+    to create an under tone and letting the vibrance of the images speak for themselves.
 
 Similar Sites & Font
     In selecting design aspects an food it was researched as to what was common practice 
