@@ -150,6 +150,8 @@ nav a {
     width: 100%;
 }
 .row2{
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     width: 100%;
 }
@@ -157,8 +159,55 @@ nav a {
     display: flex;
     width: 100%;
 }
-
-.textOverImage{
+.img1{
+    background-image: url(/img/dishes/dish_14.jpeg);
+    object-fit: cover;
+}
+.img2{
+    background-image: url(/img/dishes/dish_15.jpeg);
+    object-fit: cover;
+}
+.img3{
+    background-image: url(/img/dishes/dish_8.jpeg);
+    object-fit: cover;
+}
+.img4{
+    background-image: url(/img/dishes/dish_13.jpeg);
+    object-fit: cover;
+}
+.img5{
+    background-image: url(/img/dishes/dish_21.jpeg);
+    object-fit: cover;
+}
+.img6{
+    background-image: url(/img/dishes/dish_19.jpeg);
+    object-fit: cover;
+}
+.img7{
+    background-image: url(/img/dishes/dish_24.jpeg);
+    object-fit: cover;
+}
+.img8{
+    background-image: url(/img/dishes/dish_20.jpeg);
+    object-fit: cover;
+}
+.img9{
+    background-image: url(/img/dishes/dish_16.jpeg);
+    object-fit: cover;
+}
+.img10{
+    background-image: url(/img/dishes/dish_22.jpeg);
+    object-fit: cover;
+}
+.img11{
+    background-image: url(/img/dishes/dish_23.jpeg);
+    object-fit: cover;
+}
+.img12{
+    background-image: url(/img/dishes/dish_3.jpeg);
+    object-fit: cover;
+}
+label{
     width:25%;
     height:240px;
     object-fit: cover;
@@ -168,32 +217,11 @@ nav a {
     cursor:pointer;
     overflow: hidden;
 }
-.textOverImage2{
-    margin-top: 10px;
-    width:25%;
-    height:240px;
-    display:flex;
-    background-size:cover;
-    position:static;
-    cursor:pointer;
-    overflow:hidden;
-  }
-  .textOverImage3{
-    margin-top: 10px;
-    width:25%;
-    height:240px;
-    display:flex;
-    background-size:cover;
-    position:static;
-    cursor:pointer;
-    overflow:hidden;
-  }
-  
-  .textOverImage > input{
+label > input{
     display:none;
-  }
+}
   
-  .textOverImage > div{
+label > div{
     position: fixed;
     background-color:rgba(255,255,255,0.8);
     background-size: auto;
@@ -205,96 +233,27 @@ nav a {
     padding:8px;
     opacity:0;
     transition:.3s ease;
-  }
+}
   
-  .textOverImage:hover,.textOverImage > input:checked + div{
+label:hover,label > input:checked + div{
     bottom:4px;
     opacity:1;
-  }
-  .textOverImage:hover{
+}
+label:hover{
     transform: scale(1.5);
     border-radius: 10px;
     background-image: from-image;
-  }
-  .textOverImage > input:checked{
+}
+label > input:checked{
     bottom:-20px;
     opacity:0;
-  }
+}
   
-  .textOverImage div{
+label div{
     font-family: 'Petemoss', cursive;
     font-size: 18px;
-  }
-  .textOverImage2 > input{
-    display:none;
-  }
-  
-  .textOverImage2 > div{
-    position: fixed;
-    background-color:rgba(255,255,255,0.8);
-    background-size: auto;
-    border-radius: 5px;
-    text-align: center;
-    bottom:20px;
-    left:4px;
-    right:4px;
-    padding:8px;
-    opacity:0;
-    transition:.3s ease;
-  }
-  
-  .textOverImage2:hover,.textOverImage2 > input:checked + div{
-    bottom:4px;
-    opacity:1;
-  }
-  .textOverImage2:hover{
-    transform: scale(1.5);
-    border-radius: 10px;
-  }
-  .textOverImage2 > input:checked{
-    bottom:-20px;
-    opacity:0;
-  }
-  .textOverImage2 div{
-    font-family: 'Petemoss', cursive;
-    font-size: 18px;
-  }
-  .textOverImage3 > input{
-    display:none;
-  }
-  
-  .textOverImage3 > div{
-    position: fixed;
-    background-color:rgba(255,255,255,0.8);
-    background-size: auto;
-    border-radius: 5px;
-    text-align: center;
-    bottom:20px;
-    left:4px;
-    right:4px;
-    padding:8px;
-    opacity:0;
-    transition:.3s ease;
-  }
-  
-  .textOverImage3:hover,.textOverImage3 > input:checked + div{
-    bottom:4px;
-    opacity:1;
-  }
-  .textOverImage3:hover{
-    transform: scale(1.5);
-    border-radius: 10px;
-  }
-  .textOverImage3 > input:checked{
-    bottom:-20px;
-    opacity:0;
-  }
-  .textOverImage3 div{
-    font-family: 'Petemoss', cursive;
-    font-size: 18px;
-  }
-
-  .footer{
+}
+.footer{
     width: 100%;
     height: auto;
     background-color: white;
