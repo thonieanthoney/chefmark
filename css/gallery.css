@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petemoss&display=swap');
 
 body, text {
     background-color: #333;
@@ -139,6 +140,7 @@ nav a {
         object-fit: cover;
     }
 }
+
 .images{
     width: 100%;
     display: block;
@@ -162,6 +164,7 @@ nav a {
     height: 240px;
     object-fit: cover;
 }
+
 .textOverImage{
     width:25%;
     height:240px;
@@ -169,8 +172,8 @@ nav a {
     background-size:cover;
     position:static;
     cursor:pointer;
-    overflow:hidden;
-  }
+    overflow: hidden;
+}
 .textOverImage2{
     margin-top: 10px;
     width:25%;
@@ -193,9 +196,8 @@ nav a {
     left:4px;
     right:4px;
     padding:8px;
-    overflow:hidden;
     opacity:0;
-    transition:.3s;
+    transition:.3s ease;
   }
   
   .textOverImage:hover,.textOverImage > input:checked + h2 + div{
@@ -214,7 +216,7 @@ nav a {
     margin:0;
   }
   .textOverImage div{
-      font-family: "Poiret One";
+    font-family: 'Petemoss', cursive;
   }
   .textOverImage2 > input{
     display:none;
@@ -248,7 +250,7 @@ nav a {
     margin:0;
   }
   .textOverImage2 div{
-      font-family: "Poiret One";
+    font-family: 'Petemoss', cursive;
   }
   .footer{
     width: 100%;
@@ -296,6 +298,10 @@ nav a {
     display: inline-block;
 }
 .menu2{
+    padding-left: 10px ;
+    display: inline-block;
+}
+.menu3{
     padding-left: 10px ;
     display: inline-block;
 }
