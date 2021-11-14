@@ -54,6 +54,7 @@ nav a{
     left: 85%;
     color: black;
     padding: 2px 2px 2px 2px;
+    padding-top: 15px;
 }
 .social_icons{
     color: black;
@@ -64,6 +65,7 @@ nav a{
     width: auto;
     height: 55px;
     object-fit: cover;
+    padding-top: 15px;
 }
 .logo {
     position: absolute;
