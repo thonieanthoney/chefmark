@@ -15,5 +15,5 @@
 `URL Links`
     Deployment URL-https://chefmarkbrown.netlify.app/
     Github Repository URL- https://github.com/thonieanthoney/chefmark
-    Mockup URLs- 1.
-                 2. 
+    Mockup URLs- 1. https://quant-ux.com/#/test.html?h=a2aa10a6ZJKlNBya2l15tP72SVHbOHF626Vajx0AdP7fPBi4BnW9Bu1r0CYe
+                 2. https://quant-ux.com/#/test.html?h=a2aa10ausASpQcLX3qkdTkMvPz4puO5rijHCgTDuLYZJ3kpXFCs3klSiP8yy
